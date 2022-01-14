@@ -1,11 +1,16 @@
 * {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
     background-color: black;
-    color: white;
+    opacity: 0.9;
+    text-align: center;
 }
 
 li {
     display: inline;
     padding: 8px;
+    padding-top: 0px;
     color: white;
     float: right;
     text-decoration: underline;
@@ -15,4 +20,9 @@ li {
     position: absolute;
     left: 10px;
     height: 50px;
+    top: 9px;
+}
+
+.navbar {
+    display: flex;
 }
