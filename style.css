@@ -7,22 +7,31 @@
     text-align: center;
 }
 
-li {
-    display: inline;
-    padding: 8px;
-    padding-top: 0px;
-    color: white;
-    float: right;
+.navbar {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-content: space-between;
+    list-style-type: none;
     text-decoration: underline;
 }
 
-#logo {
+.logo {
     position: absolute;
     left: 10px;
     height: 50px;
-    top: 9px;
 }
 
-.navbar {
-    display: flex;
+.bg-image {
+    height: 700px;
+    width: 1200px;
 }
+
+
